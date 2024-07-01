@@ -1,0 +1,6 @@
+openx an existing file for a read operation.
+existing file for a write operation.
+file for append operation.
+data into the file.
+It will override existing data.
+append and read data from the file. It won’t override existing data.

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.7.0 on win32)" generated="20240220 21:36:14.101" rpa="false" schemaversion="4">
+<suite id="s1" name="Logintest" source="C:\Users\deepa\PycharmProjects\pyprogram\Robot_pageobject\Testcases\logintest.robot">
+<test id="s1-t1" name="Login page" line="12">
+<kw name="Open my browser">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<msg timestamp="20240220 21:36:14.337" level="FAIL">No keyword with name 'Open my browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" starttime="20240220 21:36:14.337" endtime="20240220 21:36:14.337"/>
+</kw>
+<kw name="Enter user name">
+<arg>${username}</arg>
+<status status="NOT RUN" starttime="20240220 21:36:14.337" endtime="20240220 21:36:14.337"/>
+</kw>
+<kw name="Enter password">
+<arg>${password}</arg>
+<status status="NOT RUN" starttime="20240220 21:36:14.337" endtime="20240220 21:36:14.337"/>
+</kw>
+<kw name="Click signin">
+<status status="NOT RUN" starttime="20240220 21:36:14.352" endtime="20240220 21:36:14.352"/>
+</kw>
+<kw name="Verify successful login">
+<status status="NOT RUN" starttime="20240220 21:36:14.352" endtime="20240220 21:36:14.352"/>
+</kw>
+<kw name="Close my browser">
+<status status="NOT RUN" starttime="20240220 21:36:14.352" endtime="20240220 21:36:14.352"/>
+</kw>
+<status status="FAIL" starttime="20240220 21:36:14.337" endtime="20240220 21:36:14.352">No keyword with name 'Open my browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</test>
+<status status="FAIL" starttime="20240220 21:36:14.116" endtime="20240220 21:36:14.352"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Logintest">Logintest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240220 21:36:14.116" level="ERROR">Error in file 'C:\Users\deepa\PycharmProjects\pyprogram\Robot_pageobject\Testcases\logintest.robot' on line 8: Setting variable '${username} tutorial' failed: Invalid variable name '${username} tutorial'.</msg>
+<msg timestamp="20240220 21:36:14.116" level="ERROR">Error in file 'C:\Users\deepa\PycharmProjects\pyprogram\Robot_pageobject\Testcases\logintest.robot' on line 9: Setting variable '${password} tutorial' failed: Invalid variable name '${password} tutorial'.</msg>
+<msg timestamp="20240220 21:36:14.322" level="ERROR">Error in file 'C:\Users\deepa\PycharmProjects\pyprogram\Robot_pageobject\Testcases\logintest.robot' on line 3: Resource file '..\pyprogram\Robot_pagaobject\Reaources\loginKeywords.robot' does not exist.</msg>
+</errors>
+</robot>

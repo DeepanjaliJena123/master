@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.7.0 on win32)" generated="20231206 00:21:25.081" rpa="false" schemaversion="4">
+<suite id="s1" name="Demo" source="C:\Users\deepa\PycharmProjects\pyprogram\Robot\demo.robot">
+<test id="s1-t1" name="Verify login" line="19">
+<kw name="Open Browser">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<msg timestamp="20231206 00:21:25.267" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231206 00:21:25.267" endtime="20231206 00:21:25.267"/>
+</kw>
+<tag>Regrassion</tag>
+<status status="FAIL" starttime="20231206 00:21:25.261" endtime="20231206 00:21:25.276">No keyword with name 'Open Browser' found.</status>
+</test>
+<doc>- validate login funtionality</doc>
+<status status="FAIL" starttime="20231206 00:21:25.085" endtime="20231206 00:21:25.309"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Regrassion</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231206 00:21:25.231" level="ERROR">Error in file 'C:\Users\deepa\PycharmProjects\pyprogram\Robot\demo.robot' on line 3: Importing library 'SeleniumLibrary' failed: ImportError: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'OpenSSL 1.1.0h  27 Mar 2018'. See: https://github.com/urllib3/urllib3/issues/2168
+Traceback (most recent call last):
+  File "c:\python37-32\lib\site-packages\SeleniumLibrary\__init__.py", line 28, in &lt;module&gt;
+    from selenium.webdriver.remote.webdriver import WebDriver
+  File "c:\python37-32\lib\site-packages\selenium\webdriver\__init__.py", line 20, in &lt;module&gt;
+    from .chrome.webdriver import WebDriver as Chrome  # noqa
+  File "c:\python37-32\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 18, in &lt;module&gt;
+    from selenium.webdriver.chromium.webdriver import ChromiumDriver
+  File "c:\python37-32\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 18, in &lt;module&gt;
+    from selenium.webdriver.chromium.remote_connection import ChromiumRemoteConnection
+  File "c:\python37-32\lib\site-packages\selenium\webdriver\chromium\remote_connection.py", line 18, in &lt;module&gt;
+    from selenium.webdriver.remote.remote_connection import RemoteConnection
+  File "c:\python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 27, in &lt;module&gt;
+    import urllib3
+  File "c:\python37-32\lib\site-packages\urllib3\__init__.py", line 42, in &lt;module&gt;
+    "urllib3 v2.0 only supports OpenSSL 1.1.1+, currently "
+PYTHONPATH:
+  C:\Python37-32\Scripts\robot.exe
+  c:\python37-32\python37.zip
+  c:\python37-32\DLLs
+  c:\python37-32\lib
+  c:\python37-32
+  c:\python37-32\lib\site-packages</msg>
+</errors>
+</robot>

@@ -1,0 +1,1 @@
+#Translate the characters using table
